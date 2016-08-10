@@ -1,0 +1,12 @@
+// styles.scss
+.testing {
+  width: percentage(5/7);
+}
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #fff;
+$color1: hsla(212%, 62%, 40%, 1);
+
+body {
+  font: 100% $font-stack;
+  background-color: #000;
+}

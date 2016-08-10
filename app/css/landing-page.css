@@ -1,0 +1,223 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700italic,700,400italic,900italic);
+@font-face {
+  font-family: 'Gothic';
+  src: url("/fonts/gothic-bold") format("woff2"), url("/fonts/gothic-bold") format("woff"); }
+
+@font-face {
+  font-family: 'gtek_novagtek_nova';
+  src: url("/fonts/gtek_nova_free_promo-webfont.woff2") format("woff2"), url("/fonts/gtek_nova_free_promo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #981a1c; }
+
+h1 {
+  font-family: 'lato';
+  font-weight: 700; }
+
+.navbar-inverse {
+  height: auto;
+  background: #1e0703;
+  font-family: "gtek_novagtek_nova";
+  font-weight: 400;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 0 18px 6px -6px #f3c03d;
+  -moz-box-shadow: 0 10px 6px -6px #f3c03d;
+  box-shadow: 0px 1px 2px 5px #f3c03d; }
+
+.navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  color: #d27d31; }
+
+.navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+  color: #d27d31;
+  background-color: transparent; }
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  color: #d27d31; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #eeebd0; }
+
+.navbar-brand {
+  padding: 0px; }
+
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto; }
+
+/* EXAMPLE 6 - Background Logo*/
+.example6 .navbar-brand {
+  background: url("/img/digitalleaf.png") center/contain no-repeat;
+  width: 150px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #eeebd0; }
+
+.intro-header {
+  padding-top: 0px;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f2efea;
+  background: url(../img/grey-workspace.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: #eeebd0; }
+
+.intro-logo {
+  width: 95%;
+  padding: 0px;
+  margin: 0 auto; }
+
+.well {
+  background: rgba(23, 18, 25, 0.85);
+  width: 78%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-width: 0px; }
+
+.intro-h3 {
+  color: #981a1c;
+  font-style: bold;
+  font-size: 2.1em; }
+
+.intro-h4 {
+  color: #FCDF42;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 5px rgba(238, 205, 208, 0.1); }
+
+.intro-h2 {
+  color: #FCDF42;
+  font-weight: 900;
+  font-size: 2.3em; }
+
+.intro-message {
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 15%; }
+
+.intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(215, 125, 49, 0.4);
+  font-size: 5em; }
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f2efea;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
+
+.lead {
+  color: #38423b;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400; }
+
+.section-heading {
+  font-family: "gtek_novagtek_nova";
+  font-weight: 900;
+  color: #b53326; }
+
+.fp-images {
+  border-style: solid;
+  border-width: .8em;
+  border-color: #1e0703;
+  border-radius: 10px; }
+
+@media (max-width: 767px) {
+  .intro-message {
+    padding-bottom: 15%; }
+  .intro-message > h1 {
+    font-size: 3em; }
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; }
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0; }
+  .intro-divider {
+    width: 100%; } }
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px; }
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f2efea; }
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7; }
+
+.section-heading {
+  margin-bottom: 30px; }
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7; }
+
+.banner {
+  padding: 100px 0;
+  color: #f2efea;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background-size: cover; }
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em; }
+
+.banner ul {
+  margin-bottom: 0; }
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0; }
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px; } }
+
+@media (max-width: 767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em; }
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; }
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0; } }
+
+footer {
+  padding: 50px 0;
+  background-color: #f2efea; }
+
+p.copyright {
+  margin: 15px 0 0; }
