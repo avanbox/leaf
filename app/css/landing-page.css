@@ -221,3 +221,13 @@ footer {
 
 p.copyright {
   margin: 15px 0 0; }
+
+
+div#expand{
+display:block;
+ display:none;
+}
+
+#example-well{
+   background: rgba(23, 18, 25, 0.85);
+}
