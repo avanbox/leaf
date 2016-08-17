@@ -36,8 +36,8 @@ h1 {
 .navbar-inverse {
   height: auto;
   background: #1e0703;
-  font-family: "gtek_novagtek_nova";
-  font-weight: 400;
+  font-family: "lato";
+  font-weight: 700;
   margin-bottom: 0px;
   -webkit-box-shadow: 0 18px 6px -6px #f3c03d;
   -moz-box-shadow: 0 10px 6px -6px #f3c03d;
@@ -56,6 +56,17 @@ h1 {
 .navbar-inverse .navbar-nav > li > a {
   color: #eeebd0; }
 
+.btn {
+  border-radius: 0px;
+  background: #fffaf9;
+  border-color: #38423b; }
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  Background: #fcdf42;
+  text-decoration: none; }
+
 .navbar-brand {
   padding: 0px; }
 
@@ -73,12 +84,12 @@ h1 {
   color: #eeebd0; }
 
 .intro-header {
-  padding-top: 0px;
+  padding-top: 10px;
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
   text-align: center;
   color: #f2efea;
-  background: url(../img/grey-workspace.jpg) no-repeat center center;
+  background: url(../img/Autumn-leaves.jpg) no-repeat center center;
   background-size: cover;
   background-color: #eeebd0; }
 
@@ -88,7 +99,7 @@ h1 {
   margin: 0 auto; }
 
 .well {
-  background: rgba(23, 18, 25, 0.85);
+  background: rgba(23, 18, 25, 0.75);
   width: 78%;
   margin: 0 auto;
   border-radius: 20px;
@@ -143,6 +154,14 @@ h1 {
   border-color: #1e0703;
   border-radius: 10px; }
 
+.ex-images {
+  border-style: solid;
+  border-width: .4em;
+  border-color: #1e0703;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
 @media (max-width: 767px) {
   .intro-message {
     padding-bottom: 15%; }
@@ -159,8 +178,10 @@ h1 {
 
 .network-name {
   text-transform: uppercase;
-  font-size: 14px;
+  font-family: 'lato';
+  font-size: .85em;
   font-weight: 400;
+  color: #38423b;
   letter-spacing: 2px; }
 
 .content-section-a {
@@ -222,12 +243,5 @@ footer {
 p.copyright {
   margin: 15px 0 0; }
 
-
-div#expand{
-display:block;
- display:none;
-}
-
-#example-well{
-   background: rgba(23, 18, 25, 0.85);
-}
+#expand {
+  display: none; }
